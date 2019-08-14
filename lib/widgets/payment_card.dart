@@ -81,7 +81,7 @@ class _PaymentCardWidgetState extends State<PaymentCardWidget> {
                   style: TextStyle(
                       inherit: true, fontSize: 12.0, color: Colors.black45)),
               SizedBox(
-                width: 20,
+                width: 10,
               ),
               Text('Paid: '),
               Text("${widget.payment.paidDate == '' ? "-" : widget.payment.paidDate}",

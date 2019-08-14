@@ -110,7 +110,7 @@ class _HomeState extends State<Home> {
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.w700,
-                              fontSize: 23.0)),
+                              fontSize: 21.0)),
                     ]),
               ),
               onTap: () => Navigator.of(context)
@@ -136,7 +136,7 @@ class _HomeState extends State<Home> {
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.w700,
-                              fontSize: 23.0)),
+                              fontSize: 21.0)),
                     ]),
               ),
               onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (_) => LandlordMaintenanceRequest()))
